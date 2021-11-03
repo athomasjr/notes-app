@@ -5,6 +5,12 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@hookform/resolvers": "^2.8.2",
+    "@supabase/supabase-js": "^1.25.0",
+    "@types/reach__router": "^1.3.9",
+    "axios": "^0.23.0",
+    "babel-plugin-styled-components": "^1.13.3",
+    "bcryptjs": "^2.4.3",
     "gatsby": "^4.0.0",
     "gatsby-plugin-gatsby-cloud": "^4.0.0",
     "gatsby-plugin-image": "^2.0.0",
@@ -12,14 +18,26 @@
     "gatsby-plugin-offline": "^5.0.0",
     "gatsby-plugin-react-helmet": "^5.0.0",
     "gatsby-plugin-sharp": "^4.0.0",
+    "gatsby-plugin-styled-components": "^5.0.0",
     "gatsby-source-filesystem": "^4.0.0",
     "gatsby-transformer-sharp": "^4.0.0",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "react-hook-form": "^7.17.5",
+    "styled-components": "^5.3.3",
+    "styled-reset": "^4.3.4",
+    "yup": "^0.32.11"
   },
   "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/node": "^16.11.4",
+    "@types/react": "^17.0.31",
+    "@types/react-dom": "^17.0.10",
+    "@types/react-helmet": "^6.1.4",
+    "@types/styled-components": "^5.1.15",
+    "gatsby-plugin-root-import": "^2.0.7",
     "prettier": "^2.4.1"
   },
   "keywords": [
